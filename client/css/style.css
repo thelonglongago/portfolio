@@ -1,0 +1,180 @@
+/** Core styling **/
+
+body {
+/**	background-color:lightgrey; **/
+	margin:0;
+	padding:0;
+}
+
+.container {
+	/**max-width:1200px; **/
+	background-color:pink;
+}
+
+
+/** Logo and Nav **/
+
+.topBar {
+	width:100%;
+	/**background-color:green;**/
+	overflow:hidden;
+	
+	
+}
+
+.logo {
+	height:60px;
+	width:60px;
+	background-color:lightblue;
+	float:left;
+	margin-left:5%;
+}
+
+
+.navbar {
+	margin-left:75%;
+	font-family: 'PT Sans', sans-serif;
+	font-size:18px;
+	color:rgba(255,255,255,0.9);
+}
+
+.navbar ul li{
+	list-style-type: none;
+	display:inline-block;
+	margin-left:10px;
+	margin-right:10px;
+	
+}
+
+/** landing page **/
+
+	.intro {
+		display:table;
+	    height:100%;
+	    width:100%;
+	    margin:auto;
+        background:url('../img/main-image.jpeg');
+        background-size:cover;
+	    overflow:hidden;
+	}
+
+	.intro .inner {
+		display:table-cell;
+	    width:100%;
+	    height:100%;
+	    max-width:none;
+	    margin:0;
+	    }
+	    
+  
+
+	/** title **/
+
+	.title {
+		margin-top:12.5%;
+		margin-left:12.5%;
+		font-family: 'PT Sans', sans-serif;
+		color:rgba(255,255,255,0.7);
+	}
+	
+	.title h1 {
+		margin-bottom:0px;
+		font-size:72px;
+		
+	}
+	
+	.title p1 {
+		font-size:32px;
+		
+	}
+	
+	.readMoreButton {
+		
+		width:100px;
+		height:40px;
+		border: 2px solid;
+		background-color:rgba(0,0,0,0);
+		margin-top:20px;
+		margin-left:15%;
+		color:rgba(255,255,255,0.7);
+	}
+	
+/** about **/
+
+.about {
+	padding-left:10%;
+	padding-right:10%;
+	margin:0;
+	
+}
+
+/** Skills + headshot Section **/
+
+.skillsSection {
+	font-family:'PT Sans', sans-serif;	
+/**	background-color:lightgreen; **/
+	text-align: center;
+	width:25%;
+	float:left;
+}
+
+
+
+.headshot {
+	width:200px;
+	height:200px;
+	background-color:rgba(0,0,0,0.7);
+	border-radius: 50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/** Skills Meter **/
+.skillsMeter {
+	text-align:left;
+}
+
+
+.meter { 
+	height: 20px;  /* Can be anything */
+	position: relative;
+	background: #555;
+	margin:5px;
+
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+  background-color: rgb(43,194,83);
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+  );
+}
+
+#orange > span {
+  background-color: #f1a165;
+}
+
+#red > span {
+  background-color:red;
+}
+
+/** About me text blurb **/
+
+.aboutMe {
+	font-family:'PT Sans', sans-serif;	
+	/**background-color:lightblue; **/
+	text-align: center;
+	width:50%;
+	float:right;
+	
+	
+}
+
+
+
+
+/** Services + Testimonials **?
